@@ -1,0 +1,37 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(170deg, rgba(2,0,36,1) 8%, rgba(2,162,222,1) 78%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
+}
+
+
+
+.c-user {
+    font-size: 100px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.form-control {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.form-control:focus {
+    border: none;
+    border-bottom: solid white 2px;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.form-control::placeholder {
+    color: black;
+}
+
+.c-input {
+    background-color: white;
+}

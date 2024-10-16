@@ -1,0 +1,43 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(170deg, rgba(2,0,36,1) 8%, rgba(2,162,222,1) 78%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.c-datos {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+form {
+    width: 70%;
+    height: 320px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.table {
+    width: 90%;
+}
+
+
+.editar_producto {
+    width: 70%;
+    background-image: linear-gradient(to right top, #676b1a, #5b5f16, #4f5412, #43490f, #383e0b);
+    background-repeat: no-repeat;
+    border: 1px solid #7d7c15;
+    border-radius: 10px;
+}
